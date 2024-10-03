@@ -7,13 +7,7 @@
 
 body,
 html {
-    /* width: 100vw; */
-    /* height: 100vh; */
     line-height: 2rem;
-}
-
-.navbar-container {
-    /* width: 100vw; */
 }
 
 .navbar-mobile {
@@ -27,7 +21,6 @@ a {
 
 /* header */
 .header {
-    /* width: 100vw; */
     height: auto;
     flex-wrap: wrap;
     padding: 0px 35px;
@@ -68,7 +61,6 @@ a {
     gap: 10px
 }
 
-
 .header-logo {
     height: 1.1rem;
     width: 1.1rem;
@@ -83,7 +75,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px; */
 }
 
 .nav-left-part {
@@ -114,7 +105,6 @@ a {
 .nav-right-part {
     display: flex;
     align-items: center;
-    /* gap: 35px; */
     justify-content: flex-end;
     font-size: 0.87rem;
     font-weight: 600;
@@ -159,8 +149,6 @@ a {
     gap: 5px;
 }
 
-
-
 .cart span,
 .favourites span {
     font-weight: 400;
@@ -176,11 +164,9 @@ a {
     background-size: cover;
     background-position: center right;
     height: 85vh;
-    /* overflow-x: hidden; */
     width: auto;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .coursel-content {
@@ -215,7 +201,6 @@ a {
     width: 200px;
     text-align: center;
     color: white;
-    /* height: 42px; */
 }
 
 .left-area,
@@ -225,7 +210,6 @@ a {
     height: 100%;
     display: flex;
     align-items: center;
-    /* top: 50%; */
 }
 
 .left-area i,
@@ -246,7 +230,6 @@ a {
 .left-area:hover,
 .right-area:hover {
     background-color: rgba(45, 43, 43, 0.1);
-    /* z-index: 2; */
 }
 
 .paginator {
@@ -298,7 +281,6 @@ a {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    /* padding: 10px; */
 }
 
 .section-title {
@@ -372,12 +354,9 @@ a {
 .card {
     min-width: 238px;
     min-height: 615px;
-    /* background-color: black; */
     display: grid;
     grid-template-rows: 10fr 1fr 1fr 1fr;
     grid-row-gap: 10px;
-    /* align-items: center; */
-    /* justify-items: center; */
     text-align: center;
 }
 
@@ -411,12 +390,10 @@ a {
     color: rgba(0, 0, 0, 0.2);
     padding: 10px;
     font-weight: 700;
-    /* opacity: 0.4; */
 }
 
 .green {
     color: #23856d;
-    /* opacity: 1; */
 }
 
 .color-pallet {
@@ -463,8 +440,6 @@ a {
     padding-top: 15px;
     background-image: none;
     background-color: #23856d;
-    /* background-size: 30% 90%; */
-    /* background-position: 75% bottom; */
     background-repeat: no-repeat;
     flex-wrap: wrap;
 }
@@ -485,7 +460,6 @@ a {
 .coursel-content-2 {
     padding: 4rem;
     width: 40vw;
-    /* flex-wrap: wrap; */
 }
 
 .coursel-content-2 .pre-title {
@@ -521,8 +495,6 @@ a {
 
 
 /* product branding section */
-
-
 .product-branding .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -620,7 +592,6 @@ a {
 }
 
 .posts-section-description {
-    /* width: 70%; */
     font-weight: 700;
     opacity: 0.5;
     text-align: center;
@@ -629,7 +600,6 @@ a {
 
 .posts-section .container .titles-container {
     gap: 0.875rem;
-    /* line-height: 2.5rem; */
 }
 
 
@@ -643,19 +613,15 @@ a {
 .post-card {
     min-width: 348px;
     max-width: 450px;
-    /* min-height: 606px; */
     display: grid;
     grid-template-rows: 1fr 1fr;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    /* border: 1px solid black; */
-    /* padding: 10px; */
 }
 
 .post-content {
     padding: 0.875rem;
     display: grid;
     line-height: 1.5rem;
-    /* grid-row-gap: 10px; */
     grid-template-rows: repeat(1fr, 5);
 }
 
@@ -717,7 +683,6 @@ a {
     font-size: 0.875rem;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.8);
-    /* text-align: center; */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -742,7 +707,6 @@ a {
 }
 
 .pre-footer {
-    /* padding: 3rem; */
     height: 18vh;
     display: flex;
     align-items: center;
@@ -786,7 +750,6 @@ a {
     gap: 3rem;
     font-weight: 700;
     padding-bottom: 3rem;
-    /* height: 30vh; */
 }
 
 .cols {
@@ -924,9 +887,7 @@ a {
 
     .coursel .left-area i,
     .coursel .right-area i {
-        /* position: relative; */
         font-size: 3rem;
-        /* top: 55px; */
     }
 
     .btn {
@@ -1041,10 +1002,10 @@ a {
     .men {
         grid-row: auto;
     }
+
     .women {
         grid-row: auto;
     }
-
 
     .product-branding .container {
         grid-template-columns: 1fr;
@@ -1096,8 +1057,6 @@ a {
         padding: 15px;
     }
 
-
-
     .sub-btn {
         width: 40%;
     }
@@ -1110,19 +1069,22 @@ a {
         min-width: auto;
         max-width: 280px;
     }
-    .card{
+
+    .card {
         width: 250px;
-    height: 614px;
-    display: grid;
-    grid-template-rows: 10fr 0.2fr 0.2fr 0.2fr;
-    grid-row-gap: 10px;
-    text-align: center;
+        height: 614px;
+        display: grid;
+        grid-template-rows: 10fr 0.2fr 0.2fr 0.2fr;
+        grid-row-gap: 10px;
+        text-align: center;
     }
-    .card>div{
+
+    .card>div {
         padding: 0px;
     }
-    .btn-price-container{
-    justify-content: center;
-    gap: 1.5rem;
+
+    .btn-price-container {
+        justify-content: center;
+        gap: 1.5rem;
     }
 }
