@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cd54e1a129.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="navbar-container">
+        <div class="header">
+            <div class="contact-us-header">
+                <div class="tel-number">
+                    <img src="./logos/phone.png" class="header-logo" alt="" />
+                    (225) 555-0118
+                </div>
+                <div class="mail">
+                    <img src="./logos/email.png" class="header-logo" alt="" />
+                    michelle.rivera@example.com
+                </div>
+            </div>
+            <div class="header-title">
+                Follow Us and get a chance to win 80% off
+            </div>
+            <div class="socials-header">
+                <span class="social-title">Follow us : </span>
+                <img src="./logos/insta.png" alt="insta" class="header-logo social-logo" />
+                <img src="./logos/youtube.png" alt="youtube" class="header-logo social-logo" />
+                <img src="./logos/fb.png" alt="facebook" class="social-logo header-logo" />
+                <img src="./logos/twt.png" alt="twitter" class="social-logo header-logo" />
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="nav-left-part">
+                <div class="logo">Bandage</div>
+                <div class="nav-items">
+                    <a class="nav-item" href="#">Home</a>
+                    <a class="nav-item" href="#">
+                        Shop <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <a class="nav-item" href="#">About</a>
+                    <a class="nav-item" href="#">Blog</a>
+                    <a class="nav-item" href="#">Contact</a>
+                    <a class="nav-item" href="#">Pages</a>
+                </div>
+            </div>
+            <div class="nav-right-part">
+                <div class="extra-btns">
+                    <a href="#"> <i class="fa-regular fa-user user-logo"></i> Login / Register</a>
+
+                    <a href="#" class="search">
+                        <i class=" fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#" class="cart">
+                        <img class="navbar-logo" src="./logos/cart.png" alt="cart" />
+                        <span class="cart-count">1</span>
+                    </a>
+                    <a href="#" class="favourites">
+                        <img class="navbar-logo" src="./logos/heart.png" alt="heart" />
+                        <span class="favourite-count">1</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-mobile">
+            <div class="nav-top-part">
+                <div class="logo">Bandage</div>
+                <div class="extra-btns">
+                    <a href="#" class="search">
+                        <img src="./logos/search-dark.png" alt="" class="navbar-logo">
+                    </a>
+                    <a href="#" class="cart">
+                        <img class="navbar-logo" src="./logos/cart-dark.png" alt="cart" />
+                    </a>
+                    <a href="#" id="menu" class="menu">
+                        <img src="./logos/menu.png" class="navbar-logo" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="nav-items ">
+                <a class="nav-item" href="#">Home</a>
+                <a class="nav-item" href="#">Product</a>
+                <a class="nav-item" href="#">Pricing</a>
+                <a class="nav-item" href="#">Contact</a>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section">
+        <div class="coursel">
+            <span class="left-area"><i class="fas fa-3x fa-chevron-left" id="left-btn"></i></span>
+            <span class="right-area">
+                <i class="fas fa-3x fa-chevron-right" id="right-btn"></i>
+            </span>
+            <span class="paginator">
+                <span class="paginator-item active"></span><span class="paginator-item"></span>
+            </span>
+            <div class="coursel-item">
+                <div class="coursel-content">
+                    <div class="pre-title">Summer 2020</div>
+                    <div class="title">New Collection</div>
+                    <div class="description">We know how large objects will act, but things on a small scale.</div>
+                    <a href="#" class="btn btn-shop">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="editors-pick-section">
+        <div class="container">
+            <div class="titles-container">
+                <div class="section-title">EDITOR'S PICK</div>
+                <div class="section-description">Problems trying to resolve the conflict between </div>
+            </div>
+            <div class="clothes-category-grid">
+                <div class="grid-item men">
+                    <img src="./images/home-page/clothes-category/person-1.jpg" alt="">
+                    <div class="grid-item-tag men-tag">
+                        Men
+                    </div>
+                </div>
+                <div class="grid-item women">
+                    <img src="./images/home-page/clothes-category/person-2.jpg" alt="">
+                    <div class="grid-item-tag men-tag">
+                        Women
+                    </div>
+                </div>
+                <div class="grid-item accessories">
+                    <img src="./images/home-page/clothes-category/person-3.jpg" alt="">
+                    <div class="grid-item-tag men-tag">
+                        Accessories
+                    </div>
+                </div>
+                <div class="grid-item kids">
+                    <img src="./images/home-page/clothes-category/person-4.jpg" alt="">
+                    <div class="grid-item-tag men-tag">
+                        Kids
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bestseller-products-section">
+        <div class="container">
+            <div class="titles-container">
+                <div class="section-pre-title">
+                    Featured Products
+                </div>
+                <div class="section-title">BESTSELLER PRODUCTS</div>
+                <div class="section-description">Problems trying to resolve the conflict between </div>
+            </div>
+            <div class="container">
+                <div class="featured-product-grid">
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="model-photo" id="person-1"></div>
+                        <div class="card-title">Graphic Designer</div>
+                        <div class="card-description">English Department</div>
+                        <div class="price">$16.48 <span class="green">$6.48&nbsp;&nbsp;</span></div>
+                        <div class="color-pallet">
+                            <div class="color-circle blue-bg"></div>
+                            <div class="color-circle green-bg"></div>
+                            <div class="color-circle orange-bg"></div>
+                            <div class="color-circle indigo-bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section hero-section-2">
+        <div class="coursel">
+            <span class="left-area"><i class="fas fa-3x fa-chevron-left" id="left-btn"></i></span>
+            <span class="right-area">
+                <i class="fas fa-3x fa-chevron-right" id="right-btn"></i>
+            </span>
+            <span class="paginator">
+                <span class="paginator-item active"></span><span class="paginator-item"></span>
+            </span>
+            <div class="coursel-item coursel-item-2">
+
+                <div class="coursel-content coursel-content-2">
+                    <div class="pre-title">Summer 2020</div>
+                    <div class="title">Vita Classic Product</div>
+                    <div class="description">We know how large objects will act, We know how are objects will act, We
+                        know</div>
+                    <div class="btn-price-container">
+                        <span class="summer-price">$16.48</span>
+                        <a href="#" class="btn btn-shop">SHOP NOW</a>
+                    </div>
+                </div>
+                <div class="hero-img-container"><img src="./images/home-page/hero-section-2.png" alt=""
+                        class="hero-pic"></div>
+            </div>
+        </div>
+    </section>
+    <section class="product-branding">
+        <div class="container">
+            <div class="left-product-image"><img src="./images/home-page/product-branding.png" alt=""></div>
+            <div class="right-product-description">
+                <div class="right-content-div">
+                    <div class="section-pre-title">
+                        Summer 2020
+                    </div>
+                    <div class="section-title">Part of the Neural Universe</div>
+                    <div class="section-description">We know how large objects will act, but things on a small scale.
+                    </div>
+                    <div class="btn-container">
+                        <a href="#" class="btn filled-btn">Buy Now</a>
+                        <a href="#" class="btn outline-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="posts-section">
+        <div class="container">
+            <div class="titles-container">
+                <div class="blue-pre-title">
+                    Practice Advice
+                </div>
+                <div class="posts-section-title">Featured Posts</div>
+                <div class="posts-section-description">Problems trying to resolve the conflict between<br />
+                    the two major realms of Classical physics: Newtonian mechanics </div>
+            </div>
+            <div class="container">
+                <div class="posts-grid">
+                    <div class="post-card">
+                        <div class="post-display" id="post-1"></div>
+                        <div class="post-content">
+                            <div class="post-tags-container">
+                                <div class="post-tag active">Google</div>
+                                <div class="post-tag">Trending</div>
+                                <div class="post-tag">New</div>
+                            </div>
+                            <div class="post-title">Loudest à la Madison #1 (L'integral)</div>
+                            <div class="post-description">
+                                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                            </div>
+                            <div class="post-metadata-container">
+                                <div class="upload-time">
+                                    <img class="metadata-logo" src="./logos/alarm.png" alt="">22 April 2021
+                                </div>
+                                <div class="comments-count">
+                                    <img src="./logos/graph.png" alt="" class="metadata-logo">10 comments
+                                </div>
+
+                            </div>
+                            <div class="learn-more">Learn More <i class="fas  fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="post-card">
+                        <div class="post-display" id="post-2"></div>
+                        <div class="post-content">
+                            <div class="post-tags-container">
+                                <div class="post-tag active">Google</div>
+                                <div class="post-tag">Trending</div>
+                                <div class="post-tag">New</div>
+                            </div>
+                            <div class="post-title">Loudest à la Madison #1 (L'integral)</div>
+                            <div class="post-description">
+                                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                            </div>
+                            <div class="post-metadata-container">
+                                <div class="upload-time">
+                                    <img class="metadata-logo" src="./logos/alarm.png" alt="">22 April 2021
+                                </div>
+                                <div class="comments-count">
+                                    <img src="./logos/graph.png" alt="" class="metadata-logo">10 comments
+                                </div>
+
+                            </div>
+                            <div class="learn-more">Learn More <i class="fas  fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="post-card">
+                        <div class="post-display" id="post-3"></div>
+                        <div class="post-content">
+                            <div class="post-tags-container">
+                                <div class="post-tag active">Google</div>
+                                <div class="post-tag">Trending</div>
+                                <div class="post-tag">New</div>
+                            </div>
+                            <div class="post-title">Loudest à la Madison #1 (L'integral)</div>
+                            <div class="post-description">
+                                We focus on ergonomics and meeting you where you work. It's only a keystroke away.
+                            </div>
+                            <div class="post-metadata-container">
+                                <div class="upload-time">
+                                    <img class="metadata-logo" src="./logos/alarm.png" alt="">22 April 2021
+                                </div>
+                                <div class="comments-count">
+                                    <img src="./logos/graph.png" alt="" class="metadata-logo">10 comments
+                                </div>
+
+                            </div>
+                            <div class="learn-more">Learn More <i class="fas  fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pre-footer">
+        <div class="pre-footer-container">
+            <div class="logo">Bandage</div>
+            <div class="social-container">
+                <i class="fa-facebook fa-brands"></i>
+                <i class="fa-instagram fa-brands"></i>
+                <i class="fa-twitter fa-brands"></i>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="cols company-info">
+                <div class="col-head col-item">Company Info</div>
+                <div class="col-item">About us</div>
+                <div class="col-item">Career</div>
+                <div class="col-item">We are hiring</div>
+                <div class="col-item">Blog</div>
+            </div>
+            <div class="cols legal">
+                <div class="col-head col-item">Legal</div>
+                <div class="col-item">About us</div>
+                <div class="col-item">Career</div>
+                <div class="col-item">We are hiring</div>
+                <div class="col-item">Blog</div>
+            </div>
+            <div class="cols features">
+                <div class="col-head col-item">Features</div>
+                <div class="col-item">Business Analytics</div>
+                <div class="col-item">User Analytic</div>
+                <div class="col-item">Live Chat</div>
+                <div class="col-item">Unlimited Support</div>
+            </div>
+            <div class="cols resources">
+                <div class="col-head col-item">Resources</div>
+                <div class="col-item">IOS & Android</div>
+                <div class="col-item">Watch a Demo</div>
+                <div class="col-item">Customers</div>
+                <div class="col-item">API</div>
+            </div>
+            <div class="cols get-in-touch">
+                <div class="col-head col-item">Get in Touch</div>
+                <div class="suscribe-container">
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                    <div class="btn sub-btn">Subscribe</div>
+                </div>
+                <div class="sub-description">Lorem ipsum dolor sit amet.</div>
+            </div>
+        </div>
+    </section>
+    <section class="copyright">
+        <div>Made with love by India All rights reserved</div>
+    </section>
+    <script>
+        let button = document.getElementById("menu")
+        button.addEventListener("click", () => {
+            let menu = document.querySelector(".navbar-mobile .nav-items")
+            if (menu.classList.contains("active")) {
+                menu.classList.remove("active")
+            }
+            else {
+                menu.classList.add("active")
+            }
+        })
+    </script>
+</body>
+
+</html>
